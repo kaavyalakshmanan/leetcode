@@ -2,7 +2,7 @@
 // globalMaxLength --> what gets returned
 // maxCount --> help us ensure num operations does not exceed k
 // Running time: O(n) --> see every character exactly once
-// Additional space: O(m) where m = 26
+// Additional space: O(1) because size of int array is constant --> 26
 
 class Solution {
     public int characterReplacement(String s, int k) {
